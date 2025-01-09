@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir um site em vários dispositivos iferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/FOTO-A.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/FOTO-B.png" type="image/png">
+       <img src="imagens/FOTO-C.png" alt="Imagens Flexivas">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender reproduzio áudio em HTML5</p>
+
+    
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/Versos  Poesias PT Céu Azul  PenellasChelsea DinorathCKQueen MSheilaLilBoyMary JFábio S.ogg" type="audio/ogg">
+        <source src="media/koffee_lockdown_official_video_mp3_36382.mp3" type="audio/mpeg">
+        <source src="media/koffee_lockdown_official_video_mp3_36382.wav" type="audio/wav">
+        <p>Infelizmente seu dispositivo não conseguir reproduzir audio</p>
+        <a href="media/koffee_lockdown_official_video_mp3_36382.mp3" Cliquee aqui para baixar o aquirvo em mp3></a>
+    </audio>
+</body>
+</html>
